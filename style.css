@@ -1,0 +1,30 @@
+body{
+    background-color: lightskyblue;
+    display:flex;
+    flex-direction: column;
+    height: 95vh;
+
+}
+
+body > *{
+    flex:1;
+}
+#board{
+    flex:0;
+    display:grid;
+    grid-template-columns: repeat(3,auto);
+    /* width:max-content; */
+    margin:0 auto;
+}
+
+button{
+    height:30vmin;
+    width:30vmin;
+    font-size: 8rem;
+}
+header,footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
+}
